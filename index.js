@@ -253,10 +253,10 @@ caption: `*🕊️You:* @${sperson.replace(/['@s whatsapp.net']/g, "")}
 *📢ID:* ${update.id}
 
 > Firstly Welcome.
-> I am Vlkyre Whatsapp Bot.
-> To Start using type .help or press below buttons.`,
+> I am Lord bob.
+> To Start using type /help or press below buttons.`,
 footer:
-"*VLkyre™ By xhadr*\n*💻HomePage:* https://bit.ly/magneum",
+"*LORD BOB",
 buttons: [
 {
 buttonId: `${νℓкуяє.prefix}Dashboard`,
