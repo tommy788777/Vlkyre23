@@ -20,16 +20,16 @@ const { QuickDB, MySQLDriver } = require("quick.db");
 if (fs.existsSync(".env")) {
   require("dotenv").config({ path: ".env" });
 }
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву mågneum ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ LORD BOB ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 var sudo = process.env.sudo;
-if (!sudo) sudo = "918436686758,917430922909";
+if (!sudo) sudo = "1876819009,1876819009";
 global.upVersion = process.env.upVersion;
 global.ShowLogger = process.env.ShowLogger;
 global.ShowInfo = process.env.ShowInfo;
 global.sudo = sudo.split(",");
 global.PORT = process.env.PORT || 5000;
 global.pgdb = process.env.pgdb;
-global.prefix = process.env.prefix || "#";
+global.prefix = process.env.prefix || "/";
 global.sessionName = process.env.sessionName;
 global.timezone = process.env.timezone;
 global.upbranch = process.env.upbranch;
@@ -49,9 +49,9 @@ global.keyApi = {
   "https://pencarikode.xyz": "pais",
   "https://leyscoders-api.herokuapp.com": "dappakntlll",
 };
-global.packname = "Vlkyre:v5";
-global.author = "magneum";
-global.name = "Vlkyre-Bot";
+global.packname = "LORD BOB";
+global.author = "BOB";
+global.name = "LORD BOB";
 var Log = (value) => {
   var log = false;
   if (typeof value === "string") {
@@ -113,4 +113,4 @@ global.DATABASE =
 // global.db = new QuickDB({ driver: mysqlDriver });
 // })();
 global.MONGO_URL = process.env.MONGO_URL;
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву mågneum ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ LORD BOB ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
